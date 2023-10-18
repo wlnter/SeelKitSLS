@@ -10,7 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol SeelViewDelegate <NSObject>
-
+/// SeelKit use this viewcontroller to present seel's term web page
+- (UIViewController *)presentingViewControllerForSeelTermsPage;
 @optional
 - (void)onSwitchChecked;
 - (void)onSwitchUnchecked;
@@ -50,14 +51,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// iconImage
 @property (nonatomic, strong) UIImage *iconImage;
-
-/// priceFont
-@property (nonatomic, strong) UIFont *priceFont;
-
-/// priceColor
-@property (nonatomic, strong) UIColor *priceColor;
-
-@property (nonatomic, assign) CGFloat viewHeight;
 
 /// 将SellView 添加到你想要展示的View上
 /// @param superView superView

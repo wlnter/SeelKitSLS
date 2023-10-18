@@ -6,19 +6,23 @@
 	<dict>
 		<key>Headers/SKManager.h</key>
 		<data>
-		oPO16Dp751Yis+DukOdl2l3hkEs=
+		JdgU3U2cKBWBq0IIvIKV3NsaLPI=
 		</data>
 		<key>Headers/SeelKit.h</key>
 		<data>
-		3j9P/XuC2T8PwqfRTQjXWAr91JE=
+		QFWZne3fzVQN05twwQM18/w/8Fc=
+		</data>
+		<key>Headers/SeelPopView.h</key>
+		<data>
+		SfvB125eBX6FXQztMXvbQWpEVag=
 		</data>
 		<key>Headers/SeelView.h</key>
 		<data>
-		2H710cHmwXXkAGmhw5PH/pQzLkI=
+		r03/NRKv3dGh98j2q9KtrMWwpcI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xaL0b/yC/u08raq2iT7Bf3Ba/tw=
+		WQZYQvfQDH2ra8wpNlYcS0bZuwE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -31,33 +35,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oPO16Dp751Yis+DukOdl2l3hkEs=
+			JdgU3U2cKBWBq0IIvIKV3NsaLPI=
 			</data>
 			<key>hash2</key>
 			<data>
-			+gzL3TLPupdyWampiCA19JZtNp0DMn8miNm12sBHTws=
+			JxidTArvf0vejKivJnUenCoqisUk9At7Lvh6T8wtDjs=
 			</data>
 		</dict>
 		<key>Headers/SeelKit.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3j9P/XuC2T8PwqfRTQjXWAr91JE=
+			QFWZne3fzVQN05twwQM18/w/8Fc=
 			</data>
 			<key>hash2</key>
 			<data>
-			TSXgsdWs5pxQ/qfb/6j2R0mlY6/8eJhCtniOb5VQAEU=
+			jH2WV/HYsPsxmQMBkRFipTrjFa/zSDwzL0HYqWyTlDo=
+			</data>
+		</dict>
+		<key>Headers/SeelPopView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SfvB125eBX6FXQztMXvbQWpEVag=
+			</data>
+			<key>hash2</key>
+			<data>
+			DqoPbFnsEBovE4uw10Uqmt0TaSrCpk4UkdtlxcaVWyk=
 			</data>
 		</dict>
 		<key>Headers/SeelView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2H710cHmwXXkAGmhw5PH/pQzLkI=
+			r03/NRKv3dGh98j2q9KtrMWwpcI=
 			</data>
 			<key>hash2</key>
 			<data>
-			zJJ5f4xduJcn6mPtitYqBZuZcROe4RgMfJ7lwlCN1zE=
+			LOsQiCVfUaBcuEqnf3uJVuPZSTSPizCIjDnJEwbijUw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
