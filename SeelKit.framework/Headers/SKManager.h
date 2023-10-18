@@ -9,6 +9,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^SKPriceCompleteBlock)(BOOL, NSString *, NSString *,NSError * _Nullable);
+
 @interface SKManager : NSObject
 +(instancetype)shared;
 
@@ -19,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 获取报价
 /// @param params NSDictionary 具体传什么参数，需与后端开发人员沟通
 /// @param completion success:是否成功 price：保单价格 error：error
-- (void)creatQuotesParams:(NSDictionary *)params completion:(void (^)(BOOL success,NSString *price,NSError*))completion;
+- (void)creatQuotesParams:(NSDictionary *)params completion:(SKPriceCompleteBlock)completion;
 
 
 /// 监听

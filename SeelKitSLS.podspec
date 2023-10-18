@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SeelKitSLS"
-  spec.version      = "3.0.0"
+  spec.version      = "3.0.1"
   spec.summary      = "Seel Kit for SLS"
   spec.license      = "MIT"
 
