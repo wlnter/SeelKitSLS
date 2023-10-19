@@ -8,8 +8,16 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
+@class SeelQuoteResponse;
 
-typedef void(^SKPriceCompleteBlock)(BOOL, NSString *, NSString *,NSError * _Nullable);
+typedef void(^SKPriceCompleteBlock)(SeelQuoteResponse * _Nullable, NSError * _Nullable);
+
+@interface SeelQuoteResponse : NSObject
+@property (nonatomic, copy, nullable) NSString *quoteId;
+@property (nonatomic, copy, nullable) NSString *price;
+@property (nonatomic, copy) NSString *status;
+@property (nonatomic, copy, nullable) NSDictionary *extraInfo;
+@end
 
 @interface SKManager : NSObject
 +(instancetype)shared;
