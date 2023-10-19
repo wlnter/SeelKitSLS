@@ -14,9 +14,9 @@ Pod::Spec.new do |spec|
 
   spec.resource = 'SeelKitResource.bundle'
 
-  spec.vendored_frameworks  = 'SeelKit.framework'
+  spec.vendored_frameworks  = 'SeelKit.xcframework'
   spec.frameworks = "Foundation", "UIKit"
-  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  # spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 end
 

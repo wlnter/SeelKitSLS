@@ -1,6 +1,0 @@
-framework module SeelKit {
-  umbrella header "SeelKit.h"
-  export *
-
-  module * { export * }
-}
