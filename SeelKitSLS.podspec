@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SeelKitSLS"
-  spec.version      = "3.0.5"
+  spec.version      = "3.0.6"
   spec.summary      = "Seel Kit for SLS"
   spec.license      = "MIT"
 
@@ -12,7 +12,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/wlnter/SeelKitSLS.git", :tag => "#{spec.version}" }
 
-  spec.resource = 'SeelKitResource.bundle'
+  # spec.resource = 'SeelKitResource.bundle'
+  spec.resource_bundle = { 'SeelKitResource' => 'Resource/**/*.png' }
 
   spec.vendored_frameworks  = 'SeelKit.xcframework'
   spec.frameworks = "Foundation", "UIKit"
