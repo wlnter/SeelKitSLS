@@ -1,12 +1,12 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SeelKitSLS"
-  spec.version      = "3.0.7"
+  spec.version      = "3.0.8"
   spec.summary      = "Seel Kit for SLS"
   spec.license      = "MIT"
 
   spec.homepage     = "https://www.seel.com"
-  spec.author       = { "winter" => "winter@outlook.com" }
+  spec.author       = { "winter" => "winter.ld@outlook.com" }
 
   spec.platform     = :ios, "12.0"
 
